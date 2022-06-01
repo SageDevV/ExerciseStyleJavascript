@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+:root{
+    --primary-color: rgb(0, 79, 116);
+    --primary-color-darker: rgb(0, 53, 78);
+    --primary-color-light: rgb(0, 141, 206);
+}
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0%;
+    background-color:  var(--primary-color-darker);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.paragrafos{
+    max-width: 640px;
+    border-radius: 15px;
+    margin: 50px auto;
+    background-color:azure;
+    padding: 20px
+}
